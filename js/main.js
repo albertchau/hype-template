@@ -32,16 +32,16 @@
     * Scroll To Contact
     */
     ScrollToContact: function() {
-    $('#button_more').click(function () { $.scrollTo('#about',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#about_arrow_back').click(function () { $.scrollTo('0px',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#about_arrow_next').click(function () { $.scrollTo('#features_1',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#features_1_arrow_back').click(function () { $.scrollTo('#about',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#features_1_arrow_next').click(function () { $.scrollTo('#features_2',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#features_2_arrow_back').click(function () { $.scrollTo('#features_1',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#features_2_arrow_next').click(function () { $.scrollTo('#features_3',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#features_3_arrow_back').click(function () { $.scrollTo('#features_2',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#features_3_arrow_next').click(function () { $.scrollTo('#gallery',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#gallery_arrow_back').click(function () { $.scrollTo('0px',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#button_more').click(function () { $.scrollTo('#about',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#about_arrow_back').click(function () { $.scrollTo('0px',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#about_arrow_next').click(function () { $.scrollTo('#features_1',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_1_arrow_back').click(function () { $.scrollTo('#about',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_1_arrow_next').click(function () { $.scrollTo('#features_2',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_2_arrow_back').click(function () { $.scrollTo('#features_1',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_2_arrow_next').click(function () { $.scrollTo('#features_3',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_3_arrow_back').click(function () { $.scrollTo('#features_2',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_3_arrow_next').click(function () { $.scrollTo('#gallery',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#gallery_arrow_back').click(function () { $.scrollTo('0px',750,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     },
  
  

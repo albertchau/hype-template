@@ -550,6 +550,56 @@ hr {
 
 
 /*######################################*/
+/*FEATURES 5 ###########################*/
+/*######################################*/
+
+#features_1 {
+    margin:0px;
+    padding-top:3.25rem;
+    padding-bottom:3.25rem;
+    background:white;
+    position:relative;
+    display:block;
+    z-index:20;
+    text-align:left;
+}
+
+#features_1_content {
+    padding-top:3rem;
+}
+
+.feature {
+    margin-top:3.25rem;
+}
+
+.feature_icon {
+    width:2rem;
+    height:2rem;
+    float:left;
+    margin-right:2rem;
+    margin-top:0.5rem;
+    margin-bottom:3rem;
+}
+
+.image_front {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:30;
+}
+
+.image_back {
+    position:relative;
+    left:0;
+    top:0;
+    z-index:29;
+}
+
+
+#features_1_content, #features1a_image, #features1b_image {opacity:0;}
+
+
+/*######################################*/
 /*FEATURES 2 ###########################*/
 /*######################################*/
 
